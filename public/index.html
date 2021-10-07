@@ -2,16 +2,35 @@
 <html lang="">
   <head>
     <meta charset="utf-8">
+    <meta name="theme-color" content="#306CFF">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="icon" href="<%= BASE_URL %>ps-bug.svg">
+    <!-- Primary Meta Tags -->
+<meta name="title" content="PlayStation 5 - Design By Mohammad Sahrullah">
+<meta name="description" content="Terima kash telah berkunjung , ini adalah website ps5 di design konsep oleh Mohammad Sahrullah">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://playstation5.vercel.app">
+<meta property="og:title" content="PlayStation 5 - Design By Mohammad Sahrullah">
+<meta property="og:description" content="Terima kash telah berkunjung , ini adalah website ps5 di design konsep oleh Mohammad Sahrullah ">
+<meta property="og:image" content="<%= BASE_URL %>ps-bug.svg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://playstation5.vercel.app">
+<meta property="twitter:title" content="PlayStation 5 - Design By Mohammad Sahrullah">
+<meta property="twitter:description" content="Terima kash telah berkunjung , ini adalah website ps5 di design konsep oleh Mohammad Sahrullah">
+<meta property="twitter:image" content="<%= BASE_URL %>ps-bug.svg">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
-  <body>
-    <noscript>
+  <body id="js-target">
+    <!-- <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
+    </noscript> -->
+
+    <div id="app" data-scroll-container></div>
     <!-- built files will be auto injected -->
   </body>
 </html>

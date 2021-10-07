@@ -1,0 +1,536 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap";
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  user-select: none;
+  background: #fff;
+  height: 100vh;
+  overflow: auto;
+}
+
+.header header {
+  padding: 20px;
+}
+.header header .container {
+  max-width: 1400px;
+}
+.header header .container .bar {
+  display: none;
+}
+.header header .container .title-brand {
+  font-size: 18px;
+  color: #000;
+}
+.header header .container .with-icon img {
+  max-width: 140px;
+  width: 100%;
+}
+.header header .container .menu-head {
+  text-align: center;
+  margin-top: -2.4rem;
+}
+.header header .container .menu-head a {
+  outline: none;
+  text-decoration: none;
+  transition: 0.4s ease;
+  color: grey;
+  padding: 5px 30px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.header header .container .menu-head a:hover {
+  color: #306CFF;
+}
+.header header .container .login-wrap-button {
+  float: right;
+  margin-top: -2rem;
+}
+.header header .container .login-wrap-button button {
+  cursor: pointer;
+  outline: none;
+  margin: 0 14px;
+  padding: 14px 40px;
+  background: transparent;
+  border: 1px solid #306CFF;
+  font-size: 15px;
+  border-radius: 50px;
+  color: #306CFF;
+  font-family: "Poppins", sans-serif;
+}
+.header header .container .login-wrap-button button:nth-child(1) {
+  border: none;
+}
+.header header .container .login-wrap-button button:nth-child(2) {
+  transition: 0.4s ease;
+}
+.header header .container .login-wrap-button button:nth-child(2):hover {
+  background: #306CFF;
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.home .wrapper-home {
+  padding: 20px;
+}
+.home .wrapper-home .container {
+  margin-top: 4rem;
+  text-align: center;
+}
+.home .wrapper-home .container h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: #000;
+}
+.home .wrapper-home .container img {
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 4rem;
+}
+.home .wrapper-home .container p {
+  font-family: "Poppins", sans-serif;
+  color: grey;
+}
+.home .box-v1 {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 5rem;
+  background: linear-gradient(to bottom, #0D121F, #1B2233);
+  display: flex;
+  height: 400px;
+}
+.home .box-v1 .feature-games {
+  margin-top: -8rem;
+}
+.home .box-v1 .feature-games img {
+  max-width: 800px;
+  width: 100%;
+}
+.home .box-v1 .game-title {
+  float: right;
+  text-align: center;
+  color: #fff;
+}
+.home .box-v1 .game-title img {
+  max-width: 400px;
+  width: 100%;
+}
+.home .box-v1 .game-title h2 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 500;
+}
+.home .box-v1 .game-title button {
+  padding: 15px 40px;
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border: none;
+}
+.home .box-v2 {
+  text-align: center;
+  margin-top: 8rem;
+  background-image: url("../img/ps-abstrak.svg");
+  background-size: cover;
+}
+.home .box-v2 h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+.home .box-v2 p {
+  font-family: "Poppins", sans-serif;
+  color: grey;
+  margin-top: 30px;
+}
+.home .box-v2 img {
+  max-width: 700px;
+  width: 100%;
+}
+.home .box-v3 {
+  background: linear-gradient(to right, #000, transparent), url("../img/kena-bridge-of-spirits-hero-01-ps5-ps4-en-26aug29.jpg");
+  background-size: cover;
+  padding: 20px;
+  color: #f2f2f2;
+}
+.home .box-v3 .container {
+  max-width: 1440px;
+}
+.home .box-v3 .container .game-overview {
+  color: #306CFF;
+  margin-top: 10rem;
+}
+.home .box-v3 .container h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+.home .box-v3 .container p {
+  font-family: "Poppins", sans-serif;
+  max-width: 700px;
+  text-align: left;
+  margin-left: 0;
+}
+.home .box-v3 .container video {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-sizing: border-box;
+}
+.home .box-v3 .container button {
+  cursor: pointer;
+  padding: 15px 40px;
+  background: transparent;
+  color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.home .box-v3 .container button:hover {
+  background: #f2f2f2;
+  color: #333;
+}
+.home .box-v4 {
+  background-image: url("../img/Ppp2.png");
+  background-size: cover;
+  padding: 20px;
+}
+.home .box-v4 .wrapper-box-v4 {
+  text-align: center;
+}
+.home .box-v4 .wrapper-box-v4 .ps-plus-logo {
+  margin-top: 7rem;
+}
+.home .box-v4 .wrapper-box-v4 .ps-plus-logo img {
+  max-width: 400px;
+  width: 100%;
+}
+.home .box-v4 .wrapper-box-v4 .ps-plus-logo p {
+  color: #f2f2f2;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.home .box-v4 .wrapper-card .container {
+  max-width: 1200px;
+}
+.home .box-v4 .wrapper-card .container .flex-card {
+  margin-top: 5rem;
+  display: flex;
+  gap: 20px;
+}
+.home .box-v4 .wrapper-card .container .flex-card .card {
+  padding: 20px;
+  text-align: center;
+  transition: 0.4s ease;
+  background: #0E1016;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+}
+.home .box-v4 .wrapper-card .container .flex-card .card img {
+  max-width: 500px;
+  width: 100%;
+}
+.home .box-v4 .wrapper-card .container .flex-card .card p {
+  color: #f2f2f2;
+  margin-top: 2rem;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+.home .box-v4 .wrapper-card .container .flex-card .card button {
+  cursor: pointer;
+  padding: 15px 40px;
+  width: 100%;
+  background: #F4D647;
+  color: #98722F;
+  border: none;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.home .box-v4 .wrapper-card .container .flex-card .card button:hover {
+  background: #f2f2f2;
+  color: #333;
+}
+.home .box-v4 .wrapper-card .container .flex-card .card:active {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+
+.box-v5 {
+  text-align: center;
+  padding: 20px;
+}
+.box-v5 .container {
+  max-width: 1200px;
+}
+.box-v5 .container h1 {
+  margin-top: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+.box-v5 .container p {
+  font-family: "Poppins", sans-serif;
+}
+.box-v5 .container .wrapper-card-v5 .flex-card-v2 {
+  margin-top: 4rem;
+  display: flex;
+  gap: 20px;
+}
+.box-v5 .container .wrapper-card-v5 .flex-card-v2 .card {
+  padding: 20px;
+  width: 100%;
+  height: 400px;
+  transition: 0.4s ease;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+}
+.box-v5 .container .wrapper-card-v5 .flex-card-v2 .card:nth-child(1) {
+  background-image: url("../img/playstation-store-october-saving-spotlight-01-en-hk-01oct21.jpg");
+}
+.box-v5 .container .wrapper-card-v5 .flex-card-v2 .card:nth-child(2) {
+  background-image: url("../img/ps-store-all-deals-image-block-01-07dec$en.jpg");
+}
+.box-v5 .container .wrapper-card-v5 .flex-card-v2 .card:nth-child(3) {
+  background-image: url("../img/playstation-store-free-to-play-spotlight-01-en-20nov20.png");
+}
+.box-v5 .container .wrapper-card-v5 .flex-card-v2 .card:active {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+
+.footer {
+  background: #00439C;
+}
+.footer footer {
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.footer footer .container {
+  max-width: 1200px;
+}
+.footer footer .container .flex-footer {
+  display: flex;
+}
+.footer footer .container .flex-footer img {
+  max-width: 100px;
+  margin-top: 2rem;
+}
+.footer footer .container .flex-footer .sie {
+  max-width: 150px;
+}
+.footer footer .container .flex-footer p {
+  font-size: 15px;
+}
+.footer footer .container .flex-footer a {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  transition: 0.4s ease;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+}
+button:active {
+  transform: translateY(12px);
+  -webkit-transform: translateY(12px);
+  -moz-transform: translateY(12px);
+  -ms-transform: translateY(12px);
+  -o-transform: translateY(12px);
+}
+button .text-button {
+  margin: 0 14px;
+}
+
+@media only screen and (max-width: 780px) {
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+  }
+  .header header {
+    border-bottom: 1px solid #dcdcdc;
+    padding: 10px;
+  }
+  .header header .container {
+    max-width: 1400px;
+  }
+  .header header .container .bar {
+    display: block;
+  }
+  .header header .container .title-brand {
+    font-size: 18px;
+    color: #000;
+  }
+  .header header .container .with-icon img {
+    max-width: 140px;
+    width: 100%;
+  }
+  .header header .container .menu-head {
+    display: none;
+    text-align: center;
+    margin-top: -2.4rem;
+  }
+  .header header .container .menu-head a {
+    outline: none;
+    text-decoration: none;
+    transition: 0.4s ease;
+    color: grey;
+    padding: 5px 30px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+  .header header .container .menu-head a:hover {
+    color: #306CFF;
+  }
+  .header header .container .login-wrap-button {
+    float: right;
+    display: none;
+    margin-top: -2rem;
+  }
+  .header header .container .login-wrap-button button {
+    cursor: pointer;
+    outline: none;
+    margin: 0 14px;
+    padding: 14px 40px;
+    background: transparent;
+    border: 1px solid #306CFF;
+    font-size: 15px;
+    border-radius: 50px;
+    color: #306CFF;
+    font-family: "Poppins", sans-serif;
+  }
+  .header header .container .login-wrap-button button:nth-child(1) {
+    border: none;
+  }
+  .header header .container .login-wrap-button button:nth-child(2) {
+    transition: 0.4s ease;
+  }
+  .header header .container .login-wrap-button button:nth-child(2):hover {
+    background: #306CFF;
+    color: #fff;
+  }
+
+  .bar {
+    float: right;
+    text-decoration: none;
+    font-size: 30px;
+    color: #333;
+    margin-right: 30px;
+    margin-top: -2.8rem;
+  }
+
+  .home .wrapper-home {
+    padding: 20px;
+  }
+  .home .wrapper-home .container {
+    margin-top: 8rem;
+    text-align: center;
+  }
+  .home .wrapper-home .container h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: #000;
+  }
+  .home .wrapper-home .container img {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .home .wrapper-home .container p {
+    font-family: "Poppins", sans-serif;
+    color: grey;
+  }
+  .home .box-v1 {
+    height: auto;
+    padding: 20px;
+    display: block;
+  }
+  .home .box-v1 .game-title {
+    float: none;
+  }
+  .home .box-v3 {
+    background: linear-gradient(to top, #000, transparent), url("../img/kena-bridge-of-spirits-hero-01-ps5-ps4-en-26aug29.jpg");
+    background-position: 60%, 60%;
+    background-size: cover;
+  }
+  .home .box-v3 .game-overview {
+    margin-top: 20rem !important;
+  }
+  .home .box-v3 video {
+    width: 100%;
+  }
+  .home .box-v4 .wrapper-card .container .flex-card {
+    display: block;
+  }
+  .home .box-v4 .wrapper-card .container .flex-card .card {
+    max-width: 400px;
+    margin-top: 5rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  .home .box-v5 .container .wrapper-card-v5 .flex-card-v2 {
+    display: block;
+  }
+  .home .box-v5 .container .wrapper-card-v5 .flex-card-v2 .card {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  .footer footer {
+    height: auto;
+  }
+  .footer footer .container .flex-footer {
+    display: block;
+  }
+  .footer footer .container .flex-footer .item-foot {
+    margin-top: 3rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
